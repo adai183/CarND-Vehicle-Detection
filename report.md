@@ -99,7 +99,8 @@ Here's a [link][video1] to my video result
 
 ---
 
-###Discussion
+### Discussion
+
 The most difficult part was to create a pipeline that is both highly reactive to sudden vehicle appearances and robust to false positives. Implementing heatmap technique for 30 consecutive frames makes my pipeline less reactive and it will fail if a vehicle appears suddenly out of nowhere, like a motorbike shooting out behind a truck.
 Also my pipeline was tested on video footage with pretty good light and weather conditions. It is very likely to fail under worse conditions. 
 Another weakness is that distant cars are not detected.
